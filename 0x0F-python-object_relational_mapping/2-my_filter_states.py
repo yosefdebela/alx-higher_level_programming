@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """
 name and argument 
-from the database `hbtn_0e_0_usa`.
+from the database `hbtn_0e_0_usa`
 """
 
 import MySQLdb as db
