@@ -1,7 +1,8 @@
 #!/usr/bin/python3
 """
-name and argument 
-from the database `hbtn_0e_0_usa`
+take argument and display all value in the states
+where `name` matches the argument
+from the database `hbtn_0e_0_usa`.
 """
 
 import MySQLdb as db
