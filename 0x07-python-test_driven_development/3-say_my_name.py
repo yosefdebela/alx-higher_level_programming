@@ -2,6 +2,8 @@
 """
 Say My Name - a function that says your name.
 """
+
+
 def say_my_name(first_name, last_name=""):
     """
     Says your name.
@@ -15,9 +17,10 @@ def say_my_name(first_name, last_name=""):
         raise TypeError("last_name must be a string")
     print("My name is {:s} {:s}".format(first_name, last_name))
 
+
 def say_my_name(first_name, last_name=""):
     """
-	Print a name.
+        Print a name.
     Args:
         first_name(str): The first name to print.
         last_name(str): The last name to print.
