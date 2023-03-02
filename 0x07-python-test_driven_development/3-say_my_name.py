@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-<<<<<<< HEAD
 """
 Say My Name - a function that says your name.
 """
@@ -13,12 +12,11 @@ def say_my_name(first_name, last_name=""):
     # first_name must be an integer
     if type(first_name) is not str:
         raise TypeError("first_name must be a string")
-    # last_name must be an integer
+    # last_name must be string
     if type(last_name) is not str:
         raise TypeError("last_name must be a string")
     print("My name is {:s} {:s}".format(first_name, last_name))
 
-=======
 # 3-say_my_name.py
 """Defines a name-printing function."""
 
@@ -37,4 +35,3 @@ def say_my_name(first_name, last_name=""):
     if not isinstance(last_name, str):
         raise TypeError("last_name must be a string")
     print("My name is {} {}".format(first_name, last_name))
->>>>>>> d18cc8ec958c9b025557a4d503ca7454310e2fdb
