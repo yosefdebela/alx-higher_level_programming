@@ -11,3 +11,4 @@ class Square:
         """
 
         self.__size = size
+#comment added.
