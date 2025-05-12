@@ -1,4 +1,4 @@
-#!/home/yos/alx-higher_level_programming/0x0F-python-object_relational_mapping/orm/bin/python3
+#!/mnt/000B75A500057336/ALX/alx-higher_level_programming/0x0F-python-object_relational_mapping/orm/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys

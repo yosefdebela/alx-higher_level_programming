@@ -1,1 +1,10 @@
 .idea
+.jupyter
+.ipynb_checkpoint
+practice_mysql.ipynb
+credintials.cnf
+app.py
+relationship.py
+relationship_app.py
+relationship2.py
+untitled.ipynb

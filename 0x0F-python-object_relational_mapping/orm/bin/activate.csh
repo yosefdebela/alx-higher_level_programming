@@ -1,5 +1,6 @@
 # This file must be used with "source bin/activate.csh" *from csh*.
 # You cannot run it directly.
+
 # Created by Davide Di Blasi <davidedb@gmail.com>.
 # Ported to Python 3.3 venv by Andrew Svetlov <andrew.svetlov@gmail.com>
 
@@ -8,17 +9,17 @@ alias deactivate 'test $?_OLD_VIRTUAL_PATH != 0 && setenv PATH "$_OLD_VIRTUAL_PA
 # Unset irrelevant variables.
 deactivate nondestructive
 
-setenv VIRTUAL_ENV "/home/yos/alx-higher_level_programming/0x0F-python-object_relational_mapping/orm"
+setenv VIRTUAL_ENV /mnt/000B75A500057336/ALX/alx-higher_level_programming/0x0F-python-object_relational_mapping/orm
 
 set _OLD_VIRTUAL_PATH="$PATH"
-setenv PATH "$VIRTUAL_ENV/bin:$PATH"
+setenv PATH "$VIRTUAL_ENV/"bin":$PATH"
 
 
 set _OLD_VIRTUAL_PROMPT="$prompt"
 
 if (! "$?VIRTUAL_ENV_DISABLE_PROMPT") then
-    set prompt = "(orm) $prompt"
-    setenv VIRTUAL_ENV_PROMPT "(orm) "
+    set prompt = '(orm) '"$prompt"
+    setenv VIRTUAL_ENV_PROMPT '(orm) '
 endif
 
 alias pydoc python -m pydoc
